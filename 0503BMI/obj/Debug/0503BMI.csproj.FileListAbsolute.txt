@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\0503BMI.exe.config
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\0503BMI.exe
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\0503BMI.pdb
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\MainWindow.g.cs
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\App.g.cs
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI_MarkupCompile.cache
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI_MarkupCompile.lref
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\MainWindow.baml
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.g.resources
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\_0503BMI.Properties.Resources.resources
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.exe
+C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.pdb
