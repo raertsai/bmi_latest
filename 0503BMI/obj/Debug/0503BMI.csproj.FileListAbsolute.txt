@@ -12,3 +12,7 @@ C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\_0503BMI.Properties.Resources.re
 C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.csproj.GenerateResource.Cache
 C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.exe
 C:\Users\USER\Desktop\0503BMI\0503BMI\obj\Debug\0503BMI.pdb
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\CircularProgressBar.dll
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\WinFormAnimation.dll
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\CircularProgressBar.xml
+C:\Users\USER\Desktop\0503BMI\0503BMI\bin\Debug\WinFormAnimation.xml

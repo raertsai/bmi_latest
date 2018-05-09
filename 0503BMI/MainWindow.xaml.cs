@@ -24,33 +24,23 @@ namespace _0503BMI
         {
             InitializeComponent();
         }
-        //set blank of heightbox
-        private void heightbutton_Click(object sender, RoutedEventArgs e)
-        {
-            heightbox.Background = Brushes.Yellow;
-            heightbox.Text = "";
-        }
-        //set blank of weightbox
-        private void weightbutton_Click_1(object sender, RoutedEventArgs e)
-        {
-            weightbox.Background = Brushes.Yellow;
-            weightbox.Text = "";
-        }
-
+       
 
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (IsInitialized)
             {
-                heightbox.Text = slider_h.Value.ToString("#00.00").ToString(); // change value by hand    
-                weightbox.Text = slider_w.Value.ToString("#00.00").ToString();
+                heightnumber.Text = slider_h.Value.ToString("#00.00").ToString(); // change value by hand    
+                weightnumber.Text = slider_w.Value.ToString("#00.00").ToString();
 
-                double w = double.Parse(weightbox.Text);
-                double h = double.Parse(heightbox.Text);
+                double w = double.Parse(weightnumber.Text);
+                double h = double.Parse(heightnumber.Text);
                 double BMI = 10000 * w / (h * h);
 
-                // tp split two part #
+
+
+                // split the bmi into two parts #
                 string[]parts = BMI.ToString("#00.00").ToString().Split('.');
                 bmi_number1.Text = parts[0];
                 if (parts.Length > 1)
@@ -65,13 +55,25 @@ namespace _0503BMI
                 // to make the height slider move
                 Canvas.SetLeft(height_border, slider_h.Value * 2.625 - 50);
                 // to show height number
-                heightnumber.Text = slider_h.Value.ToString("#00.00").ToString();
+                heightnumber.Text = slider_h.Value.ToString("#00.00").ToString()+"cm";
 
                 // to make the weight lider move
                 Canvas.SetLeft(weight_border, slider_w.Value * 2.625 - 50);
                 // to show weight number
-                weightnumber.Text = slider_w.Value.ToString("#00.00").ToString();
+                weightnumber.Text = slider_w.Value.ToString("#00.00").ToString()+"kg";
             }
+        }
+
+        private void delet_1(object sender, RoutedEventArgs e)
+        {
+            heightnumber.Text = 0.ToString();
+            Canvas.SetLeft(height_border, slider_h.Value * 0);
+        }
+
+        private void delet_2(object sender, RoutedEventArgs e)
+        {
+            weightnumber.Text = 0.ToString();
+            Canvas.SetLeft(weight_border, slider_w.Value * 0);
         }
 
        
